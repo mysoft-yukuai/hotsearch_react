@@ -1,0 +1,92 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+
+  &:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  flex-grow: 1;
+}
+.card-title-icon {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.update-time {
+  font-size: 12px;
+  color: #b7b3b3;
+  margin-left: auto; /* Ensures it is pushed to the far right */
+}
+
+.cell-group-scrollable {
+  max-height: 350px;
+  overflow-y: auto;
+  padding-right: 16px;
+  flex: 1;
+}
+
+.cell-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.cell-order {
+  width: 20px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 8px;
+  color: #7a7a7a;
+}
+
+.top-ranking-1 .cell-order {
+  color: #fadb14; /* 金色 */
+}
+.top-ranking-2 .cell-order {
+  color: #a9a9a9; /* 银色 */
+}
+.top-ranking-3 .cell-order {
+  color: #d48806; /* 铜色 */
+}
+
+.cell-title {
+  font-size: 13px;
+  color: #495060;
+  line-height: 22px;
+  flex-grow: 1;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.cell-title.hover-effect {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.cell-title.hover-effect:hover {
+  color: #409eff;
+}
+
+.cell-heat {
+  min-width: 50px;
+  text-align: right;
+  font-size: 12px;
+  color: #7a7a7a;
+}
+
+.ant-card .ant-card-body {
+  padding: 8px;
+}

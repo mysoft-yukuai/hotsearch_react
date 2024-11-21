@@ -1,0 +1,35 @@
+.stats-card-main {
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.stats-section {
+  text-align: center;
+}
+.stats-value-main {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a74da;
+}
+.stats-label-main {
+  font-size: 14px;
+  color: #333;
+}
+.stats-others {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.stats-item {
+  text-align: center;
+}
+
+.stats-value-small,
+.stats-label-small {
+  font-size: 12px; /* 减小字体尺寸以实现更紧凑的布局 */
+}
+
+.stats-value-small {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2px;
+}

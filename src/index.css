@@ -1,0 +1,12 @@
+:root {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  background: #f8f9fa;
+  /* 提供一个柔和的背景色 */
+  min-height: 100vh;
+  /* 使用视口高度确保填满整个屏幕 */
+  padding: 0;
+  /* 保持整体布局紧凑，无额外内边距 */
+}

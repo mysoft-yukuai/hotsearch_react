@@ -1,0 +1,32 @@
+.poetry-excerpt-card {
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.refresh-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+  font-size: 12px; /* 缩小图标 */
+  padding: 5px; /* 减少内边距 */
+  border: 1px solid rgba(255, 255, 255, 0.7); /* 边框颜色和透明度 */
+  background-color: rgba(255, 255, 255, 0.3); /* 背景颜色和透明度 */
+  color: rgb(81, 66, 66); /* 图标颜色 */
+}
+.poetry-content,
+.poetry-excerpt,
+.poetry-meta {
+  color: inherit;
+  text-shadow: inherit;
+}

@@ -1,0 +1,46 @@
+.ant-layout-header {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  height: 60px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-form {
+  width: 100%;
+  flex: 1;
+}
+
+.search-input {
+  height: 40px;
+  width: 100%;
+}
+
+.search-option {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-option-title {
+  max-width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-option-icon {
+  max-width: 80px;
+  color: #8492a6;
+  font-size: 13px;
+  white-space: nowrap;
+}
